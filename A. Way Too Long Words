@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+void solve(){   
+    string s;
+    cin>>s;
+    int i=s.length()-1;
+	
+	
+	if(i<=10)
+	{
+		cout<<s<<endl;
+	}
+	else if(i>=10)
+	{
+		cout<<s[0]<<s.length()-2<<s[i-1]<<endl;
+	}
+}
+
+
+int main()
+{
+	int n;
+	cin>>n;
+	while(n--)
+	{
+	solve();
+	}
+	return 0;
+}
